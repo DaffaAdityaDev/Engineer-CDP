@@ -9,6 +9,10 @@
     width: 15rem;
     flex-grow: 1;
 
+    .card__left {
+        
+    }
+
     .card__right {
         height: 100px;
         .card__btn {
@@ -27,6 +31,8 @@
                 background-color: #ddd;
             }
         }
+
+        
     }
     
 }

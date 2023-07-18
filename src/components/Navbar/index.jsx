@@ -29,16 +29,16 @@ function Navbar() {
                 </div>
                 <div className="right__navbar">
                     <div className="right__navbar__user__avatar">
-                        <img src="https://i.pinimg.com/originals/0f/6d/8a/0f6d8a5b6b5b5b0b0b0b0b0b0b0b0b0b.jpg" alt="avatar" />
+                        <img src="icons/account_circle.svg" alt="avatar" />
                         <p className='right__navbar__user__name'>John Doe</p>
                     </div>
                     <div className="right__navbar__settings">
-                        <img src="https://image.flaticon.com/icons/png/512/25/25694.png" alt="settings" />                
+                        <img src="icons/settings_FILL.svg" alt="settings" />                
                     </div>
                 </div>
-                <div className={"right__navbar__burger" + isBurgerOpen ? "close" : ""} onClick={() => setIsBurgerOpen(!isBurgerOpen)} >
-                    <img src="https://image.flaticon.com/icons/png/512/25/25694.png" alt="burger" />
-                </div>
+                {/* <div className={"right__navbar__burger" + isBurgerOpen ? "close" : ""} onClick={() => setIsBurgerOpen(!isBurgerOpen)} >
+                    <img src="icons/n" alt="burger" />
+                </div> */}
                 </>
             ) : (
                 <>
@@ -61,7 +61,7 @@ function Navbar() {
                             <img src="https://image.flaticon.com/icons/png/512/25/25694.png" alt="settings" />                
                         </div>
                         <div  onClick={() => setIsBurgerOpen(!isBurgerOpen)} >
-                            <h1>kontol</h1>
+                            <h1>Burger Close</h1>
                         </div>
 
                     </div>

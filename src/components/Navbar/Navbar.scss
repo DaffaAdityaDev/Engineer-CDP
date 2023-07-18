@@ -104,13 +104,23 @@
             align-items: center;
             height: 100%;
 
+            img {
+                width: 2rem;
+            }
+
         }
 
-        .right__navbar__notification {
+        
+
+        .right__navbar__settings {
             display: flex;
             align-items: center;
             justify-content: center;
             height: 100%;
+
+            img {
+                width: 2rem;
+            }
 
         }
 
@@ -152,6 +162,8 @@
 
         .right__navbar {
             display: none;
+            
+            
 
             
         }
