@@ -1,0 +1,65 @@
+$small-screen: 600px;
+$medium-screen: 900px;
+$large-screen: 1200px;
+
+
+.container__main {
+  max-width: $small-screen; 
+  margin: 0 auto; 
+
+  .container__content--card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+
+  .container__graph {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+    .container__content--graphbar {
+      flex-grow: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2rem;
+      height: 100%;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .cotaniner__content--graphpie {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2rem;
+      height: 100%;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+  
+    
+  }
+
+  
+
+  
+
+  @media screen and (min-width: $medium-screen) {
+    max-width: $medium-screen; 
+    .container__graph {
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  }
+
+  @media screen and (min-width: $large-screen) {
+    max-width: $large-screen;
+    
+  }
+}
